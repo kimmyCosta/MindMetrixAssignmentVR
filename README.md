@@ -13,6 +13,9 @@
 > - Assets/Materials
 > - Assets/Mini Legion Rock Golem PBR HP Polyart/Materials
 
+> [!Note]
+> If you have an error regarding "Library\PackageCache", it is probably because the name is too long. Move the project to the root and the issue should be resolved.
+
 To launch the backend : 
 ``` 
 cd BackendExample
