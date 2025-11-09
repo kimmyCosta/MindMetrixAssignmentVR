@@ -8,6 +8,11 @@
 > The project need the new InputSystem (not the InputAction). If error occurs : go to Project Settings > Player > Other Settings > Configuration > Active Input Handling : InputSystem (new)
 > you then need to go to the package manager and install the input system.
 
+> [!Warning]
+> If you have pink assets, the shader may need to be adjusted to, say, "Standard" shader for these materials:
+> - Assets/Materials
+> - Assets/Mini Legion Rock Golem PBR HP Polyart/Materials
+
 To launch the backend : 
 ``` 
 cd BackendExample
@@ -45,7 +50,7 @@ The enemies are created using 3 different ScriptableObject :
 It allows modular enemy creation and definition. The SO_SpawnableInfo will represent a type of enemy (which will be assign its corresponding VFX and sound). The SpawnManager handled in the GameState receives all the type of enemies as a ```List<SO_SpawnableInfo>``` and will randomly spawn it in a spawning area.
 
 ### Information retrieved
-In the folder Asset > Scripts > DataStruct, there are 4 ScriptableObject that will permit to create seamlessly a JSON, using JsonUtility.ToJson(_ourData_). The following information are :
+In the folder Asset/Scripts/DataStruct, there are 4 ScriptableObject that will permit to create seamlessly a JSON, using JsonUtility.ToJson(_ourData_). The following information are :
 - EnemyDataEvent : information about the enemy for 1 interaction (reaction)
     - the state of the enemy (when was it killed: perfect kill, ok kill, self destroyed, not touched)
     - the number of point earned (based on the time of state and the information of the enemy, will be negative is self destroyed)
