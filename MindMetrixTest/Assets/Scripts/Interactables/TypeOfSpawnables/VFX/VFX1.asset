@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a54f73b758707c408f972fc9939c284, type: 3}
+  m_Name: VFX1
+  m_EditorClassIdentifier: Assembly-CSharp::SO_VFX
+  perfect: {fileID: 8176850701479282271, guid: b219c04f384e7f345bb8ae1fef443965, type: 3}
+  ok: {fileID: 5700784828077083704, guid: ed962e35f7fa6f34f8d27aa6d19ea293, type: 3}
+  lose: {fileID: 8915500580573861359, guid: 9d11447644b0e0842a7edb034fe1ac72, type: 3}

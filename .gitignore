@@ -1,0 +1,9 @@
+.utmp/
+MindMetrixTest/[Ll]ibrary/
+MindMetrixTest/[Tt]emp/
+MindMetrixTest/[Oo]bj/
+MindMetrixTest/[Bb]uild/
+MindMetrixTest/[Bb]uilds/
+MindMetrixTest/[Ll]ogs/
+MindMetrixTest/[Uu]ser[Ss]ettings/
+*.log

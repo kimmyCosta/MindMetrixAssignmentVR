@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fdee2f4c6866c044b63c39d2c673f6d, type: 3}
+  m_Name: GameModeDesktop
+  m_EditorClassIdentifier: Assembly-CSharp::GameMode
+  gameState: {fileID: 3988291583125854452, guid: 8be34729df116904a9fe5c4cdbb01f05, type: 3}
+  playerController: {fileID: 7314522026190516369, guid: 2bd55136466fd0f4684211f31db6c151, type: 3}
+  playerState: {fileID: 7506011186802072179, guid: 59205d0adad63f74a8e2205e185d3d6b, type: 3}
+  pawn: {fileID: 2210965554607876191, guid: 97247988f57788240abc7b2c408ef1f7, type: 3}
