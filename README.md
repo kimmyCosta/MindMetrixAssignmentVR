@@ -2,6 +2,11 @@
 ## Installation
 
 - [ ] Pre-requisite : Version Unity 6000.2.10f1
+    - [ ] InputSystem in ProjectSettings
+      
+> [!Warning]
+> The project need the new InputSystem (not the InputAction). If error occurs : go to Project Settings > Player > Other Settings > Configuration > Active Input Handling : InputSystem (new)
+> you then need to go to the package manager and install the input system.
 
 To launch the backend : 
 ``` 
@@ -9,6 +14,7 @@ cd BackendExample
 dotnet run 
 
 ```
+
 This will automatically launch on port 5000, in localhost.
 
 
